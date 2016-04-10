@@ -1,0 +1,49 @@
+.EntryContainer
+	display flex
+	justify-content center
+	flex-wrap wrap
+	
+.Entry
+	border-bottom 1px solid #ABB7B7
+	padding 1.5em 1.2em
+	max-width 768px
+	
+	h2
+		font-size 1.7rem
+		
+	h3
+		font-size 1.7rem
+		
+	h4
+		font-size 1.5rem
+	
+	a
+		color #4299d4
+		text-decoration none
+		
+	i
+		padding-right 0.5rem
+	
+	&-title
+		text-align center
+		
+		&Link
+			color $black-light
+			text-decoration none
+			
+		&Link:hover
+			color $blue
+			text-decoration underline
+	
+	&-description
+		text-align justify
+		
+@media (min-width 768px)
+	.Entry
+		margin 0 auto
+
+		h2
+			font-size 2.3rem
+			
+		h3
+			font-size 2rem

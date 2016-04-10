@@ -1,0 +1,31 @@
+.ImageCircle
+	border 2px solid $white
+	border-radius 50%
+
+.CardAuthor
+	background-color #F2F2F2
+	max-width 768px
+	
+	&-mainContainer
+		display flex
+		align-items center
+	
+	&-imageContainer
+		display inline-block
+	
+	&-image
+		border-radius 50%
+		
+	&-name
+		font-size 1.5em
+		
+	&-description
+		text-align justify
+		padding 0 1.5em 2em
+		
+@media (min-width 768px)
+	.CardAuthor
+		margin 0 auto
+
+		&-name
+			font-size 2em
