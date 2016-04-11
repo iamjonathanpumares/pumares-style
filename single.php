@@ -9,7 +9,7 @@
 	<?php wp_head(); ?>
 </head>
 <body>
-	<?php get_header('page'); ?>
+	<?php get_header('single'); ?>
 
 	<section class="Content">
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>

@@ -1,6 +1,6 @@
 <footer class="Footer">
 	<div class="FooterContainer">
-		<strong class="Footer-copyright">Hecho con <i class="fa fa-heart" style="color: #F22613;"></i> por Jonathan Pumares</strong>
+		<strong class="Footer-copyright">Hecho con <i class="fa fa-code" style="color: #F22613;"></i> por Jonathan Pumares</strong>
 		<p class="Footer-description">Full Stack Developer en Tecnologías HTML5, CSS3, JavaScript, Python, Django, NodeJS, MySQL, PostgreSQL, etc.</p>
 		<div class="Footer-socialContainer">
 			<a href="#" class="Footer-socialLink"><i class="fa fa-linkedin"></i></a>

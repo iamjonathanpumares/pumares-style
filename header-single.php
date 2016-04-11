@@ -1,7 +1,7 @@
 <header class="Header">
 	<?php get_header(); ?>
 
-	<section class="PageCover" style="background-image: url('<?php bloginfo('template_directory'); echo "/images/cover.jpg"; ?>');">
+	<section class="PageCover" style="background-image: url('<?php bloginfo('template_directory'); echo "/images/blue-veltium.png"; ?>');">
 		<div class="PageCoverMask">
 			<div class="PageCoverContainer">
 				<h1 class="PageCover-title"><?php the_title(); ?></h1>
